@@ -1,5 +1,20 @@
+import React from 'react'
+import Navbar from './components/Navbar'
+import Hero from './components/Hero'
+import HeadlineCards from './components/HeadlineCards'
+import Food from './components/Food'
+import Category from './components/Category'
+
 function App() {
-    return <h1 className='text-3xl font-bold underline'>Hello world!</h1>
+    return (
+        <>
+            <Navbar />
+            <Hero />
+            <HeadlineCards />
+            <Food />
+            <Category />
+        </>
+    )
 }
 
 export default App
